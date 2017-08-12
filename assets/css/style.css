@@ -1,0 +1,68 @@
+.img-thumbnail{/*span all four columns*/
+	width:100%;
+}
+
+body{/*sets background image*/
+	background-image:url("../images/background.jpg");
+	background-size:100%;
+}
+
+.jumbotron{/*sets background and animation of jumbotron*/
+	background-color:#E0C297;
+	animation: changeColor 20s;
+	animation-iteration-count:1000;
+}
+
+@keyframes changeColor{/*animation for jumbotron*/
+	0%{background-color:#E0C297;}
+	15%{background-color:#D96523;}
+	30%{background-color:#A69E89;}
+	45%{background-color:#143840;}
+	60%{background-color:#A69E89;}
+	75%{background-color:#D96523;}
+	90%{background-color:#E0C297;}
+}
+
+.jumbotron>h1, .jumbotron>p{/*sets font and animation for font*/
+	color:#969696;
+	font-family: 'Merriweather', serif;
+	animation: fontChangeColor 20s;
+	animation-iteration-count:1000;
+}
+
+@keyframes fontChangeColor{/*animation for font*/
+	0%{color:#969696;}
+	15%{color:#FFF9E9;}
+	30%{color:#143840;}
+	45%{color:#969696;}
+	60%{color:#143840;}
+	75%{color:#FFF9E9;}
+	90%{color:#969696;}			
+}
+
+button#startButton{/*sets formatting for game button*/
+	font-size:45px;
+    border-radius:15px;
+	background-color:#FFF9E9;
+	color:#143840;
+    margin:10px 0px;
+    font-family: 'Merriweather', serif;
+    width:100%;
+}
+
+.panel{/*sets formatting for panels in main section*/
+	margin-top:30px;
+	background-color:#FFF9E9;
+	color:#143840;
+	font-family: 'Merriweather', serif;
+}
+
+.col-xs-8.col-sm-8.col-md-8.col-lg-8{/*sets formatting for main section*/
+	background-color:#42311E;
+	border-radius:15px;
+}
+
+.img-thumbnail{/*sets formatting for image container*/
+	background-color:#42311E;
+	border:1px solid #42311E;
+}
